@@ -3,9 +3,10 @@
   <jobSentText>Job was sent as &apos;$jobname&apos;
 Please:
 -Close the lid
--Turn on the Ventilation
--And press &apos;start&apos; on the Lasercutter $name</jobSentText>
-  <jobPrefix>visicut </jobPrefix>
+-Turn on the Power, Laser, &amp; Ventilation
+-Load your gcode file in $name (if not automatic)
+-And press &apos;Start&apos; in $name</jobSentText>
+  <jobPrefix> visicut </jobPrefix>
   <laserCutter class="com.t_oster.liblasercut.drivers.Grbl">
     <lineend>CR</lineend>
     <baudRate>3686400</baudRate>
@@ -41,5 +42,5 @@ Please:
   <projectorTiming>0</projectorTiming>
   <projectorWidth>0</projectorWidth>
   <projectorHeight>0</projectorHeight>
-  <name>File Export</name>
+  <name>Laser Control</name>
 </laserDevice>
