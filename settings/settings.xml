@@ -17,13 +17,14 @@
   </windowBounds>
   <useThicknessAsFocusOffset>false</useThicknessAsFocusOffset>
   <recentFiles>
-    <string>/home/pi/Pictures/Harrylight.svg</string>
     <string>/usr/share/visicut/examples/Basic/rectangle-20mm-green.svg</string>
+    <string>/home/pi/Pictures/Harrylight.svg</string>
     <string>/tmp/ink_ext_XXXXXX.svg0NRLAZ.svg</string>
     <string>/home/users/Public/catapult02.plf</string>
     <string>/home/pi/Downloads/Torsion_Catapult/Torsion_Catapult/TorsionCatapult.dxf</string>
   </recentFiles>
   <lastMaterial>Default Material</lastMaterial>
+  <lastLaserDevice>Laser Control</lastLaserDevice>
   <availableImporters/>
   <editSettingsBeforeExecuting>false</editSettingsBeforeExecuting>
   <fabLabLocationFacebookId></fabLabLocationFacebookId>

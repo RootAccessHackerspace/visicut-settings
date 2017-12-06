@@ -8,7 +8,7 @@ Please:
 -And press &apos;Start&apos; in $name</jobSentText>
   <jobPrefix> visicut </jobPrefix>
   <laserCutter class="com.t_oster.liblasercut.drivers.Grbl">
-    <lineend>CR</lineend>
+    <lineend>LF</lineend>
     <baudRate>3686400</baudRate>
     <flipXaxis>false</flipXaxis>
     <flipYaxis>false</flipYaxis>
