@@ -1,0 +1,45 @@
+<laserDevice>
+  <originBottomLeft>false</originBottomLeft>
+  <jobSentText>Job was sent as &apos;$jobname&apos;
+Please:
+-Close the lid
+-Turn on the Ventilation
+-And press &apos;start&apos; on the Lasercutter $name</jobSentText>
+  <jobPrefix>visicut </jobPrefix>
+  <laserCutter class="com.t_oster.liblasercut.drivers.Grbl">
+    <lineend>CR</lineend>
+    <baudRate>3686400</baudRate>
+    <flipXaxis>false</flipXaxis>
+    <flipYaxis>false</flipYaxis>
+    <autoPlay>true</autoPlay>
+    <supportedResolutions>100,300,500,1000,10000</supportedResolutions>
+    <waitForOKafterEachLine>true</waitForOKafterEachLine>
+    <preJobGcode>G21,G90,M4</preJobGcode>
+    <postJobGcode>M5,G0 X0 Y0</postJobGcode>
+    <serialTimeout>300</serialTimeout>
+    <exportPath>/home/users/Public</exportPath>
+    <uploadMethod>File</uploadMethod>
+    <identificationLine>Grbl</identificationLine>
+    <initDelay>0</initDelay>
+    <comport></comport>
+    <max__speed>5000.0</max__speed>
+    <travel__speed>3600.0</travel__speed>
+    <blankLaserDuringRapids>false</blankLaserDuringRapids>
+    <useBidirectionalRastering>true</useBidirectionalRastering>
+    <spindleMax>500.0</spindleMax>
+    <currentPower>-1.0</currentPower>
+    <currentSpeed>-1.0</currentSpeed>
+    <nextPower>-1.0</nextPower>
+    <nextSpeed>-1.0</nextSpeed>
+    <currentFocus>0.0</currentFocus>
+    <bedWidth>320.0</bedWidth>
+    <bedHeight>210.0</bedHeight>
+    <rasterPadding>0.2</rasterPadding>
+    <autoHome>true</autoHome>
+  </laserCutter>
+  <cameraTiming>0</cameraTiming>
+  <projectorTiming>0</projectorTiming>
+  <projectorWidth>0</projectorWidth>
+  <projectorHeight>0</projectorHeight>
+  <name>File Export</name>
+</laserDevice>

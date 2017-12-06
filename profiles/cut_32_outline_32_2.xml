@@ -1,0 +1,9 @@
+<vectorProfile>
+  <DPI>10000.0</DPI>
+  <description>A new Laserprofile</description>
+  <name>cut outline 2</name>
+  <orderStrategy>INNER_FIRST</orderStrategy>
+  <useOutline>true</useOutline>
+  <isCut>true</isCut>
+  <width>0.02</width>
+</vectorProfile>

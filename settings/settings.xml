@@ -1,0 +1,33 @@
+<visicutPreferences>
+  <disableSandbox>false</disableSandbox>
+  <useFilenamesForJobs>false</useFilenamesForJobs>
+  <labName>Root Access Hackerspace</labName>
+  <enableQRCodes>false</enableQRCodes>
+  <fastQRCodes>false</fastQRCodes>
+  <fabqrActive>false</fabqrActive>
+  <fabqrPrivateURL></fabqrPrivateURL>
+  <fabqrPublicURL></fabqrPublicURL>
+  <fabqrPrivateUser></fabqrPrivateUser>
+  <fabqrPrivatePassword></fabqrPrivatePassword>
+  <windowBounds>
+    <x>289</x>
+    <y>37</y>
+    <width>1190</width>
+    <height>805</height>
+  </windowBounds>
+  <useThicknessAsFocusOffset>false</useThicknessAsFocusOffset>
+  <recentFiles>
+    <string>/home/pi/Pictures/Harrylight.svg</string>
+    <string>/usr/share/visicut/examples/Basic/rectangle-20mm-green.svg</string>
+    <string>/tmp/ink_ext_XXXXXX.svg0NRLAZ.svg</string>
+    <string>/home/users/Public/catapult02.plf</string>
+    <string>/home/pi/Downloads/Torsion_Catapult/Torsion_Catapult/TorsionCatapult.dxf</string>
+  </recentFiles>
+  <lastMaterial>Default Material</lastMaterial>
+  <lastLaserDevice>File Export</lastLaserDevice>
+  <availableImporters/>
+  <editSettingsBeforeExecuting>false</editSettingsBeforeExecuting>
+  <fabLabLocationFacebookId></fabLabLocationFacebookId>
+  <laserCutterTags></laserCutterTags>
+  <supportedExtensions></supportedExtensions>
+</visicutPreferences>
