@@ -24,7 +24,7 @@ Please:
     <initDelay>0</initDelay>
     <comport></comport>
     <max__speed>5000.0</max__speed>
-    <travel__speed>3600.0</travel__speed>
+    <travel__speed>5000.0</travel__speed>
     <blankLaserDuringRapids>false</blankLaserDuringRapids>
     <useBidirectionalRastering>true</useBidirectionalRastering>
     <spindleMax>500.0</spindleMax>
