@@ -1,7 +1,7 @@
 <vectorProfile>
   <DPI>10000.0</DPI>
   <description>A new Laserprofile</description>
-  <name>cut 5</name>
+  <name>cut 4 IF</name>
   <orderStrategy>INNER_FIRST</orderStrategy>
   <useOutline>false</useOutline>
   <isCut>true</isCut>

@@ -1,8 +1,8 @@
 <vectorProfile>
   <DPI>10000.0</DPI>
   <description>A new Laserprofile</description>
-  <name>cut 2</name>
-  <orderStrategy>INNER_FIRST</orderStrategy>
+  <name>cut 1 NN</name>
+  <orderStrategy>NEAREST</orderStrategy>
   <useOutline>false</useOutline>
   <isCut>true</isCut>
   <width>0.02</width>
