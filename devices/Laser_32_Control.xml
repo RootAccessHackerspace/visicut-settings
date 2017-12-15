@@ -16,7 +16,7 @@ Please:
     <supportedResolutions>100,300,500,1000,10000</supportedResolutions>
     <waitForOKafterEachLine>true</waitForOKafterEachLine>
     <preJobGcode>G21,G90,M4</preJobGcode>
-    <postJobGcode>M5,G0 X0 Y0</postJobGcode>
+    <postJobGcode>M5,G0 X0 Y0,M30</postJobGcode>
     <serialTimeout>300</serialTimeout>
     <exportPath>/home/users/Public</exportPath>
     <uploadMethod>File</uploadMethod>
