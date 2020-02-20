@@ -1,13 +1,15 @@
-<laserDevice>
+<?xml version="1.0" encoding="UTF-8"?>
+
+<laserDevice version="0">
   <originBottomLeft>false</originBottomLeft>
-  <jobSentText>Job was sent as &apos;$jobname&apos;
+  <jobSentText>Job was sent as '$jobname'
 Please:
 -Close the lid
 -Turn on the Power, Laser, &amp; Ventilation
 -Load your gcode file in $name (if not automatic)
--And press &apos;Start&apos; in $name</jobSentText>
+-And press 'Start' in $name</jobSentText>
   <jobPrefix> visicut </jobPrefix>
-  <laserCutter class="com.t_oster.liblasercut.drivers.Grbl">
+  <laserCutter class="de.thomas_oster.liblasercut.drivers.Grbl">
     <lineend>LF</lineend>
     <baudRate>3686400</baudRate>
     <flipXaxis>false</flipXaxis>
@@ -27,7 +29,7 @@ Please:
     <travel__speed>5000.0</travel__speed>
     <blankLaserDuringRapids>false</blankLaserDuringRapids>
     <useBidirectionalRastering>true</useBidirectionalRastering>
-    <spindleMax>500.0</spindleMax>
+    <spindleMax>1000.0</spindleMax>
     <currentPower>-1.0</currentPower>
     <currentSpeed>-1.0</currentSpeed>
     <nextPower>-1.0</nextPower>
